@@ -156,6 +156,7 @@ proxy-groups:
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
     include-all: true
+    exclude-filter: (?i)IEPL|x10
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -198,14 +199,14 @@ proxy-groups:
     tolerance: 50
   - name: 🌐 其他地区
     include-all: true
-    exclude-filter: (?i)香港|HK|Hong Kong|🇭🇰|HongKong|台|新北|彰化|TW|Taiwan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|新加坡|坡|狮城|SG|Singapore|KR|Korea|KOR|首尔|韩|韓|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    exclude-filter: (?i)香港|HK|Hong Kong|🇭🇰|HongKong|台|新北|彰化|TW|Taiwan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|新加坡|坡|狮城|SG|Singapore|KR|Korea|KOR|首尔|韩|韓|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
   - name: 🛩️ 高速节点
     include-all: true
-    filter: (?i)IPLC|10x
+    filter: (?i)IEPL|x10
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
