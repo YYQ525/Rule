@@ -133,6 +133,14 @@ proxy-groups:
       - 🌐 其他地区
       - 🛩️ 高速节点
       - 🚀 手动切换
+  - name: 🎶 网易音乐
+    type: select
+    include-all: true
+    filter: (?i)网易|音乐|NetEase|Music
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -267,7 +275,7 @@ rule-providers:
     format: text
     type: http
   NetEaseMusic:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+    url: https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
     path: ./ruleset/NetEaseMusic.list
     behavior: classical
     interval: 86400
@@ -373,6 +381,7 @@ rules:
   - "RULE-SET,Apple,🍎 苹果服务"
   - "RULE-SET,Telegram,📲 电报消息"
   - "RULE-SET,OpenAi,💬 OpenAi"
+  - "RULE-SET,NetEaseMusic,🎶 网易音乐"
   - "RULE-SET,Epic,🎮 游戏平台"
   - "RULE-SET,Origin,🎮 游戏平台"
   - "RULE-SET,Sony,🎮 游戏平台"
