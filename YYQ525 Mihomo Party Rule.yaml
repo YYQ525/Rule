@@ -133,7 +133,7 @@ proxy-groups:
       - 🌐 其他地区
       - 🛩️ 高速节点
       - 🚀 手动切换
-  - name: 🎶 网易音乐
+  - name: 🎶 网易云音乐
     type: select
     include-all: true
     filter: (?i)网易|音乐|NetEase|Music
@@ -381,7 +381,7 @@ rules:
   - "RULE-SET,Apple,🍎 苹果服务"
   - "RULE-SET,Telegram,📲 电报消息"
   - "RULE-SET,OpenAi,💬 OpenAi"
-  - "RULE-SET,NetEaseMusic,🎶 网易音乐"
+  - "RULE-SET,NetEaseMusic,🎶 网易云音乐"
   - "RULE-SET,Epic,🎮 游戏平台"
   - "RULE-SET,Origin,🎮 游戏平台"
   - "RULE-SET,Sony,🎮 游戏平台"
