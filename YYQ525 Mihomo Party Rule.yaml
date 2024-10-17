@@ -63,6 +63,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
+      - 🛑 广告拦截
       - 🌐 其他地区
       - 🛩️ 高速节点
       - 🚀 手动切换
@@ -239,6 +240,10 @@ proxy-groups:
   - name: 🎥 奈飞节点
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    type: select
+  - name: 🛑 广告拦截
+    include-all: true
+    filter: (?i)广告
     type: select
 
 rule-providers:
