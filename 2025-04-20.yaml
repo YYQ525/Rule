@@ -2,7 +2,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://v4e564bv.trafficmanager.net/verival/qsy/lod?token=1de63f3496b81780aed33c770d840acf"
+    url: ""
     type: http
     interval: 86400
     health-check:
